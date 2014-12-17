@@ -18,7 +18,7 @@ api = twitter.Api(consumer_key='OAicZZPAyI6QsIIr8xFXVw', \
                   access_token_key='429457401-bk9EdTb6sbX6PCI8trN455QenEL2ycjVg0wIp0Lv', \
                   access_token_secret='n5y56iRBfSNi4xEuiXHTd6EES2fh0eHesZIgEpyUp3w')
 
-GATD_HOST = 'inductor.eecs.umich.edu'
+GATD_HOST = 'gatd.eecs.umich.edu'
 GATD_PORT = 4001
 GATD_PID  = '69ARXC5ktb'
 

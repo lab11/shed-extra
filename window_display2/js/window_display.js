@@ -41,7 +41,7 @@ function updateLinesGraph () {
 }
 
 onload = function() {
-	socket = io.connect('inductor.eecs.umich.edu:8080/stream');
+	socket = io.connect('gatd.eecs.umich.edu:8080/stream');
 
 	socket.on('connect', function (data) {
 		var query = {$or: [{hostname  : 'nuclear.eecs.umich.edu'},
